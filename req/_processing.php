@@ -1,7 +1,7 @@
 <?php 
-    if(isset($_GET["/"])) 
+    if(isset($_GET["page"])) 
     {
-        $page = $_GET["/"];
+        $page = $_GET["page"];
     }
     else 
     {
@@ -12,12 +12,20 @@
     switch($page)
     {
         // Menu Pages Header
+        case "accueil":
+            $pagepath = 'pages/accueil.php';
+            break;
         case "connexion":
             $pagepath = 'pages/connexion.php';
             break;
         case "inscription":
             $pagepath = 'pages/inscription.php';
             break;
+        case "article":
+            $pagepath = 'pages/article.php';
+            break;
+
+        
         
         default:
             $pagepath = "pages/accueil.php";
