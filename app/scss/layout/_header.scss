@@ -1,4 +1,12 @@
 header {
     grid-area: headerZone;
     border: 1px solid red;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header__logo, .header__user {
+        border: 1px dashed pink;
+    }
 }

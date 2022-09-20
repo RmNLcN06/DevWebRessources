@@ -35,11 +35,18 @@ a {
   width: 99%;
   display: grid;
   grid-template-areas: "headerZone headerZone headerZone headerZone" "menuZone mainZone mainZone mainZone" "menuZone mainZone mainZone mainZone" "menuZone mainZone mainZone mainZone" "footerZone footerZone footerZone footerZone";
+  gap: 5px;
 }
 
 header {
   grid-area: headerZone;
   border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header__logo, header .header__user {
+  border: 1px dashed pink;
 }
 
 nav {
