@@ -1,0 +1,12 @@
+.wrapper {
+    border: 5px solid violet;
+    width: 99%;
+    display: grid;
+    grid-template-areas: 
+        "headerZone headerZone headerZone headerZone"
+        "menuZone mainZone mainZone mainZone"
+        "menuZone mainZone mainZone mainZone"
+        "menuZone mainZone mainZone mainZone"
+        "footerZone footerZone footerZone footerZone"
+    ;
+}
