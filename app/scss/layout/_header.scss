@@ -8,5 +8,16 @@ header {
 
     .header__logo, .header__user {
         border: 1px dashed pink;
+
+        & ul {
+            display: flex;
+
+            & li {
+                border: 1px solid black;
+                margin: 0px 5px;
+            }
+        }
     }
+
+    
 }

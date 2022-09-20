@@ -48,6 +48,13 @@ header {
 header .header__logo, header .header__user {
   border: 1px dashed pink;
 }
+header .header__logo ul, header .header__user ul {
+  display: flex;
+}
+header .header__logo ul li, header .header__user ul li {
+  border: 1px solid black;
+  margin: 0px 5px;
+}
 
 nav {
   grid-area: menuZone;
