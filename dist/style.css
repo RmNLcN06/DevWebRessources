@@ -37,6 +37,31 @@ a {
   grid-template-areas: "headerZone headerZone headerZone headerZone" "menuZone mainZone mainZone mainZone" "menuZone mainZone mainZone mainZone" "menuZone mainZone mainZone mainZone" "footerZone footerZone footerZone footerZone";
   gap: 5px;
 }
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    grid-template-areas: "headerZone headerZone headerZone headerZone" "menuZone mainZone mainZone mainZone" "menuZone mainZone mainZone mainZone" "menuZone mainZone mainZone mainZone" "footerZone footerZone footerZone footerZone";
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .wrapper {
+    grid-template-areas: "headerZone headerZone headerZone headerZone" "menuZone mainZone mainZone mainZone" "menuZone mainZone mainZone mainZone" "menuZone mainZone mainZone mainZone" "footerZone footerZone footerZone footerZone";
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .wrapper {
+    grid-template-areas: "headerZone headerZone" "menuZone mainZone" "menuZone mainZone" "menuZone mainZone" "footerZone footerZone";
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+  .wrapper {
+    grid-template-areas: "headerZone" "menuZone" "mainZone" "mainZone" "footerZone";
+  }
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    grid-template-areas: "headerZone" "menuZone" "mainZone" "mainZone" "footerZone";
+  }
+}
 
 header {
   grid-area: headerZone;
@@ -64,6 +89,36 @@ nav {
 main {
   grid-area: mainZone;
   border: 1px solid green;
+}
+@media only screen and (min-width: 1200px) {
+  main {
+    background-color: pink;
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  main {
+    background-color: orange;
+    font-size: 80%;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  main {
+    background-color: blue;
+    font-size: 80%;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+  main {
+    background-color: green;
+    font-size: 60%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  main {
+    background-color: red;
+    font-size: 60%;
+  }
 }
 
 footer {

@@ -1,4 +1,29 @@
 main {
     grid-area: mainZone;
     border: 1px solid green;
+
+    @media only screen and (min-width: 1200px) {
+        background-color: pink;
+        font-size: 100%;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 992px) {
+        background-color: orange;
+        font-size: 80%;
+    }
+
+    @media only screen and (max-width: 992px) and (min-width: 768px) {
+        background-color: blue;
+        font-size: 80%;
+    }
+
+    @media only screen and (max-width: 768px) and (min-width: 600px) {
+        background-color: green;
+        font-size: 60%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        background-color: red;
+        font-size: 60%;
+    }
 }
