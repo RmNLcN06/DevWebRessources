@@ -80,10 +80,20 @@ header .header__logo ul li, header .header__user ul li {
   border: 1px solid black;
   margin: 0px 5px;
 }
+@media only screen and (max-width: 768px) {
+  header .header__user {
+    display: none;
+  }
+}
 
 nav {
   grid-area: menuZone;
   border: 1px solid blue;
+}
+@media only screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
 }
 
 main {
