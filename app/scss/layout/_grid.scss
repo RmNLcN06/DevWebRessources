@@ -4,9 +4,8 @@
     display: grid;
     grid-template-areas: 
         "headerZone headerZone headerZone headerZone"
-        "menuZone mainZone mainZone mainZone"
-        "menuZone mainZone mainZone mainZone"
-        "menuZone mainZone mainZone mainZone"
+        "menuZone menuZone menuZone menuZone"
+        "mainZone mainZone mainZone mainZone"
         "footerZone footerZone footerZone footerZone"
     ;
     gap: 5px;
@@ -14,9 +13,8 @@
     @media only screen and (min-width: 1200px) {
         grid-template-areas: 
             "headerZone headerZone headerZone headerZone"
-            "menuZone mainZone mainZone mainZone"
-            "menuZone mainZone mainZone mainZone"
-            "menuZone mainZone mainZone mainZone"
+            "menuZone menuZone menuZone menuZone"
+            "mainZone mainZone mainZone mainZone"
             "footerZone footerZone footerZone footerZone"
         ;
     }
@@ -24,9 +22,8 @@
     @media only screen and (max-width: 1200px) and (min-width: 992px) {
         grid-template-areas: 
             "headerZone headerZone headerZone headerZone"
-            "menuZone mainZone mainZone mainZone"
-            "menuZone mainZone mainZone mainZone"
-            "menuZone mainZone mainZone mainZone"
+            "menuZone menuZone menuZone menuZone"
+            "mainZone mainZone mainZone mainZone"
             "footerZone footerZone footerZone footerZone"
         ;
     }
@@ -34,9 +31,8 @@
     @media only screen and (max-width: 992px) and (min-width: 768px) {
         grid-template-areas: 
             "headerZone headerZone"
-            "menuZone mainZone"
-            "menuZone mainZone"
-            "menuZone mainZone"
+            "menuZone menuZone"
+            "mainZone mainZone"
             "footerZone footerZone"
         ;
     }

@@ -1,21 +1,21 @@
 <div class="header__logo">
     <a href="?page=accueil">
-        <img src="" alt="">
+        <img src="" alt="">LOGO
     </a>
 </div>
 <div class="header__user">
     <ul>
         <li>
-            <a href="">Inscription</a>
+            <a href="?page=inscription">Inscription</a>
         </li>
         <li>
-            <a href="">Connexion</a>
+            <a href="?page=connexion">Connexion</a>
         </li>
         <li>
-            <a href="">Déconnexion</a>
+            <a href="?page=deconnexion">Déconnexion</a>
         </li>
         <li>
-            <a href="">Mon Profil</a>
+            <a href="?page=profil">Mon Profil</a>
         </li>
     </ul>
 </div>

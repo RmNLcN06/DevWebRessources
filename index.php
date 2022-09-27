@@ -11,9 +11,24 @@
             <header>
                 <?php include("inc/_header.php"); ?>
             </header>
+            <?php
+                $homePage = "/DevWebRessources/?page=accueil";
+                $indexPage = "/DevWebRessources/index.php";
+                $indexPageBis = "/DevWebRessources/";
+
+                $localPage = $_SERVER['REQUEST_URI'];
+                echo $homePage . "<br>";
+                echo $localPage;
+
+                if(($homePage != $localPage) && ($indexPage != $localPage) && ($indexPageBis != $localPage)) {
+            ?>
             <nav>
                 <?php include("inc/_nav.php"); ?>
             </nav>
+            <?php
+                }
+            ?>
+            
             <main>
                 <?php include($pagepath); ?>
             </main>

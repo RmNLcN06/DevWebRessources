@@ -12,6 +12,7 @@
     switch($page)
     {
         // Menu Pages Header
+        
         case "accueil":
             $pagepath = 'pages/accueil.php';
             break;

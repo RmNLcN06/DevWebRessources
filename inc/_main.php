@@ -1,1 +1,2 @@
-<p>Ceci est le contenu principal</p>
+<h1>Ceci est le contenu principal</h1>
+

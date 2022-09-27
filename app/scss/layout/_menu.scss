@@ -2,7 +2,19 @@ nav {
     grid-area: menuZone;
     border: 1px solid blue;
 
-    @media only screen and (max-width: 768px) {
-        display: none;
+    ul {
+        @media only screen and (max-width: 768px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        li {
+            @media only screen and (max-width: 768px) {
+                font-size: 2vw;
+            }
+        }
     }
+    
 }
